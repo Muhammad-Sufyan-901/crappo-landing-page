@@ -3,6 +3,10 @@
 @tailwind utilities;
 
 @layer base {
+  html {
+    @apply scrollbar-hide;
+  }
+
   body {
     @apply font-primary bg-darkblue text-white leading-normal;
   }
